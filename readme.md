@@ -1,12 +1,11 @@
-# ArvanFlux
+# ArvanFlux 1.1.0
 
 If you want to have a traffic distributor with a round-robin algorithm and distribute your frontend or backend requests to your own servers, you can use this project. Because the project is Dockerized, you can easily use this on the [ArvanCloud](https://arvancloud.ir) service.
 
 - Round Robin Load Balancing: Distributes traffic evenly across a list of backend servers.
 - Simple Configuration: Easy to set up with minimal configuration.
-
 - Efficient Performance: Optimized for high performance and low latency
-- easy and Lightweight
+- Automatic server failover with configurable downtime: Temporarily removes non-responsive servers from the rotation for a set duration (1 minutes) to ensure high availability
 
 # Getting Started
 
